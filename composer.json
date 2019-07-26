@@ -1,7 +1,7 @@
 {
-    "name": "librablocker/php-libra",
+    "name": "php-libra/php-libra",
     "type": "library",
-    "description": "A php library to work with the Libra gRPC and protobuf client.",
+    "description": "A php library to work with the Libra client gRPC and protobuf.",
     "keywords": [
         "libra",
         "cryptos",
@@ -11,8 +11,8 @@
     "authors": [
         {
             "name": "Yada Khov",
-            "email": "yada.khov@gmail.com",
-            "homepage": "https://github.com/yadakhov"
+            "email": "ykhov@conntected.io",
+            "homepage": "https://github.com/connected-ykhov"
         }
     ],
     "require": {
