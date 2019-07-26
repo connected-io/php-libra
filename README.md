@@ -31,7 +31,7 @@ php examples/get_balance.php
 ## Installation with composer
 
 ```bash
-composer install php-libra
+composer require php-libra/php-libra
 ```
 
 ## Note to Developers
