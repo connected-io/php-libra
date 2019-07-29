@@ -1,5 +1,9 @@
 # php-libra
 
+[![Latest Stable Version](https://poser.pugx.org/connected-io/php-libra/version)](https://packagist.org/packages/php-libra/php-libra)
+[![License](https://poser.pugx.org/connected-io/php-libra/license)](https://packagist.org/packages/php-libra/php-libra)
+[![Build Status](https://travis-ci.org/connected-io/php-libra.svg)](https://travis-ci.org/connected-ykhov/php-libra)
+
 A php library to work with the Libra gRPC client and protobuf.
 
 ### Sample Code
