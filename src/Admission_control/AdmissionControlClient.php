@@ -5,12 +5,14 @@
 // Copyright (c) The Libra Core Contributors
 // SPDX-License-Identifier: Apache-2.0
 //
-namespace Admission_control {
+namespace Admission_control;
 
-  // -----------------------------------------------------------------------------
-  // ---------------- Service definition
-  // -----------------------------------------------------------------------------
-  class AdmissionControlClient extends \Grpc\BaseStub {
+/**
+ * -----------------------------------------------------------------------------
+ * ---------------- Service definition
+ * -----------------------------------------------------------------------------
+ */
+class AdmissionControlClient extends \Grpc\BaseStub {
 
     /**
      * @param string $hostname hostname
@@ -18,7 +20,7 @@ namespace Admission_control {
      * @param \Grpc\Channel $channel (optional) re-use channel object
      */
     public function __construct($hostname, $opts, $channel = null) {
-      parent::__construct($hostname, $opts, $channel);
+        parent::__construct($hostname, $opts, $channel);
     }
 
     /**
@@ -29,10 +31,10 @@ namespace Admission_control {
      */
     public function SubmitTransaction(\Admission_control\SubmitTransactionRequest $argument,
       $metadata = [], $options = []) {
-      return $this->_simpleRequest('/admission_control.AdmissionControl/SubmitTransaction',
-      $argument,
-      ['\Admission_control\SubmitTransactionResponse', 'decode'],
-      $metadata, $options);
+        return $this->_simpleRequest('/admission_control.AdmissionControl/SubmitTransaction',
+        $argument,
+        ['\Admission_control\SubmitTransactionResponse', 'decode'],
+        $metadata, $options);
     }
 
     /**
@@ -48,12 +50,10 @@ namespace Admission_control {
      */
     public function UpdateToLatestLedger(\Types\UpdateToLatestLedgerRequest $argument,
       $metadata = [], $options = []) {
-      return $this->_simpleRequest('/admission_control.AdmissionControl/UpdateToLatestLedger',
-      $argument,
-      ['\Types\UpdateToLatestLedgerResponse', 'decode'],
-      $metadata, $options);
+        return $this->_simpleRequest('/admission_control.AdmissionControl/UpdateToLatestLedger',
+        $argument,
+        ['\Types\UpdateToLatestLedgerResponse', 'decode'],
+        $metadata, $options);
     }
-
-  }
 
 }

@@ -50,6 +50,10 @@ class VMInvariantViolationError
      * Generated from protobuf enum <code>StorageError = 8;</code>
      */
     const StorageError = 8;
+    /**
+     * Generated from protobuf enum <code>InternalTypeError = 9;</code>
+     */
+    const InternalTypeError = 9;
 
     private static $valueToName = [
         self::UnknownInvariantViolationError => 'UnknownInvariantViolationError',
@@ -61,6 +65,7 @@ class VMInvariantViolationError
         self::LinkerError => 'LinkerError',
         self::LocalReferenceError => 'LocalReferenceError',
         self::StorageError => 'StorageError',
+        self::InternalTypeError => 'InternalTypeError',
     ];
 
     public static function name($value)
