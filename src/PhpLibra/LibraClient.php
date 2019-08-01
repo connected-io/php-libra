@@ -124,6 +124,10 @@ class LibraClient
     {
         $ac = $this->getAccountState($address);
 
+        if ($ac === null) {
+            return 0;
+        }
+
         return convert_libra($ac->balance);
     }
 
