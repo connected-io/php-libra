@@ -40,7 +40,7 @@ composer require php-libra/php-libra
 
 ## Note to Developers
 
-* Libra Core is a prototype and so is this libray.
+* Libra Core is a prototype and so is this library.
 * The APIs are constantly evolving and changing.
 
 ## Protobuf Installation
